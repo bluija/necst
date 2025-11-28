@@ -76,8 +76,13 @@ class Datasource(object):
 			self.input_dim = 784
 			self.num_classes = 50
 			self.dtype = tf.float32
-			self.preprocess = self._preprocess_omniglot
-			self.get_dataset = self.get_tf_dataset
+			# Use binary dataset loader when is_binary=True (no labels needed)
+			if FLAGS.is_binary:
+				self.preprocess = self._preprocess_binary_mnist
+				self.get_dataset = self.get_binary_tf_dataset
+			else:
+				self.preprocess = self._preprocess_omniglot
+				self.get_dataset = self.get_tf_dataset
 
 		elif FLAGS.datasource == 'binary_omniglot':
 
