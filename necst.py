@@ -35,7 +35,8 @@ class NECST():
 		if self.input_dim == 784:
 			self.img_dim = 28
 		elif self.input_dim == 100:
-			self.img_dim = 100
+			# for random data - treat as 1D features, not images
+			self.img_dim = 28
 		elif self.input_dim == 7840 or self.input_dim == 3920:
 			self.img_dim = 28
 		elif self.input_dim == (32 * 32 * 3):
