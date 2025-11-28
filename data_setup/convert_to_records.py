@@ -137,6 +137,13 @@ def main(unused_argv):
     print(trainlabels.shape, validlabels.shape, testlabels.shape)
     print(trainlabels2.shape, validlabels2.shape, testlabels2.shape)
 
+    # Convert images: flatten (1,28,28) -> (784,) and convert float64 -> float32
+    print('Flattening and converting images to float32...')
+    trainimages = np.array(trainimages).reshape(trainimages.shape[0], -1).astype(np.float32)
+    validimages = np.array(validimages).reshape(validimages.shape[0], -1).astype(np.float32)
+    testimages = np.array(testimages).reshape(testimages.shape[0], -1).astype(np.float32)
+    print('After conversion:', trainimages.shape, validimages.shape, testimages.shape)
+
     from types import SimpleNamespace
     train_dataset = SimpleNamespace(images= trainimages, labels= trainlabels, labels2= trainlabels2)
     valid_dataset = SimpleNamespace(images= validimages, labels= validlabels, labels2= validlabels2)
