@@ -1074,7 +1074,11 @@ class NECST():
 			# Apply sigmoid to convert logits to probabilities for binary data
 			if self.is_binary:
 				x_reconstr_mean = expit(x_reconstr_mean)
-			x_t_plus_1 = np.clip(np.random.normal(loc=x_reconstr_mean, scale=0.01), 0., 1.)
+				# For binary data, sample from Bernoulli distribution
+				x_t_plus_1 = np.random.binomial(1, x_reconstr_mean).astype(np.float32)
+			else:
+				# For continuous data, add Gaussian noise
+				x_t_plus_1 = np.clip(np.random.normal(loc=x_reconstr_mean, scale=0.01), 0., 1.)
 			x_t = x_t_plus_1
 
 			if (step + 1) % 1000 == 0:
