@@ -1007,6 +1007,8 @@ class NECST():
 		x_reconstr_logits = sess.run(self.test_x_reconstr_logits, feed_dict)
 		# rounding values here to get hard {0, 1} values
 		if self.is_binary:
+			# Apply sigmoid to convert logits to probabilities before rounding
+			x_reconstr_logits = expit(x_reconstr_logits)
 			x_reconstr_logits = np.round(x_reconstr_logits)
 		print(np.max(x_reconstr_logits), np.min(x_reconstr_logits))
 		print(np.max(x), np.min(x))
@@ -1069,6 +1071,9 @@ class NECST():
 				feed_dict = {self.x: x_t}
 
 			x_reconstr_mean = sess.run(self.test_x_reconstr_logits, feed_dict)
+			# Apply sigmoid to convert logits to probabilities for binary data
+			if self.is_binary:
+				x_reconstr_mean = expit(x_reconstr_mean)
 			x_t_plus_1 = np.clip(np.random.normal(loc=x_reconstr_mean, scale=0.01), 0., 1.)
 			x_t = x_t_plus_1
 
