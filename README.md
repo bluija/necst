@@ -58,6 +58,16 @@ Training a 1000-bit NECST model with BSC noise = 0.2 on CelebA:
 python3 main.py --datadir=./data --datasource=celebA --channel_model=bsc --noise=0.2 --test_noise=0.2 --n_bits=1000
 ```
 
+```
+python3 main.py --datadir=./data --datasource=BinaryMNIST --channel_model=bsc --noise=0.1 --test_noise=0.1 --n_bits=100 --is_binary=True --train=False
+
+
+python3 main.py --datadir=./data --datasource=omniglot --channel_model=bsc --noise=0.1 --test_noise=0.1 --n_bits=200 --is_binary=True --n_epochs=500
+
+python3 main.py --datadir=./data --datasource=omniglot --channel_model=bsc --noise=0.1 --test_noise=0.1 --n_bits=200 --is_binary=True --n_epochs=500 --train=False
+
+```
+
 ## Citing
 If you find NECST useful in your research, please consider citing the following paper:
 

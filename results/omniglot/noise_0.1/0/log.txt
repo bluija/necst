@@ -1,0 +1,23 @@
+TRAIN: implicitly flipping individual bits with probability 0.1
+TEST: implicitly flipping individual bits with probability 0.1
+using vimco loss...
+SETUP: using mutliple train ops due to discrete latent variable
+L2 squared test loss (per image): 0.105920
+L2 squared test loss (per pixel): 0.000135
+L2 test loss (per image): 0.325454
+L2 test loss (per pixel): 0.000415
+1.0 0.0
+1.0 0.0
+n: 2, m: 10
+initializing with samples from test set...
+Step 999
+Step 1999
+Step 2999
+Step 3999
+Step 4999
+Step 5999
+Step 6999
+Step 7999
+Step 8999
+(100, 784)
+n: 10, m: 10

@@ -1,0 +1,224 @@
+TRAIN: implicitly flipping individual bits with probability 0.1
+TEST: implicitly flipping individual bits with probability 0.1
+using vimco loss...
+SETUP: using mutliple train ops due to discrete latent variable
+Epoch 1, l2 train loss: 13.197882, l2 valid loss: 0.412967, time: 4s
+Epoch 2, l2 train loss: 11.759320, l2 valid loss: 0.397814, time: 7s
+Epoch 3, l2 train loss: 11.481335, l2 valid loss: 0.389827, time: 10s
+Epoch 4, l2 train loss: 11.303323, l2 valid loss: 0.384430, time: 14s
+Epoch 5, l2 train loss: 11.160745, l2 valid loss: 0.377971, time: 17s
+Epoch 6, l2 train loss: 11.051358, l2 valid loss: 0.374799, time: 20s
+Epoch 7, l2 train loss: 10.958417, l2 valid loss: 0.374482, time: 24s
+Epoch 8, l2 train loss: 10.905592, l2 valid loss: 0.370455, time: 27s
+Epoch 9, l2 train loss: 10.833854, l2 valid loss: 0.365184, time: 30s
+Epoch 10, l2 train loss: 10.767333, l2 valid loss: 0.362507, time: 33s
+Epoch 11, l2 train loss: 10.710405, l2 valid loss: 0.363192, time: 37s
+Epoch 12, l2 train loss: 10.662096, l2 valid loss: 0.358205, time: 40s
+Epoch 13, l2 train loss: 10.622448, l2 valid loss: 0.354635, time: 44s
+Epoch 14, l2 train loss: 10.585229, l2 valid loss: 0.358285, time: 47s
+Epoch 15, l2 train loss: 10.551160, l2 valid loss: 0.354121, time: 50s
+Epoch 16, l2 train loss: 10.527615, l2 valid loss: 0.353670, time: 54s
+Epoch 17, l2 train loss: 10.498729, l2 valid loss: 0.353015, time: 57s
+Epoch 18, l2 train loss: 10.484540, l2 valid loss: 0.355698, time: 60s
+Epoch 19, l2 train loss: 10.464193, l2 valid loss: 0.350659, time: 64s
+Epoch 20, l2 train loss: 10.431820, l2 valid loss: 0.349973, time: 67s
+Epoch 21, l2 train loss: 10.418367, l2 valid loss: 0.352375, time: 70s
+Epoch 22, l2 train loss: 10.398745, l2 valid loss: 0.347152, time: 74s
+Epoch 23, l2 train loss: 10.386552, l2 valid loss: 0.347760, time: 77s
+Epoch 24, l2 train loss: 10.375347, l2 valid loss: 0.347699, time: 81s
+Epoch 25, l2 train loss: 10.359151, l2 valid loss: 0.348304, time: 84s
+Epoch 26, l2 train loss: 10.351188, l2 valid loss: 0.346948, time: 87s
+Epoch 27, l2 train loss: 10.336044, l2 valid loss: 0.345896, time: 91s
+Epoch 28, l2 train loss: 10.326856, l2 valid loss: 0.346202, time: 94s
+Epoch 29, l2 train loss: 10.319261, l2 valid loss: 0.346114, time: 97s
+Epoch 30, l2 train loss: 10.300414, l2 valid loss: 0.345038, time: 101s
+Epoch 31, l2 train loss: 10.289108, l2 valid loss: 0.348846, time: 104s
+Epoch 32, l2 train loss: 10.300885, l2 valid loss: 0.348903, time: 107s
+Epoch 33, l2 train loss: 10.281300, l2 valid loss: 0.341910, time: 111s
+Epoch 34, l2 train loss: 10.271030, l2 valid loss: 0.344867, time: 114s
+Epoch 35, l2 train loss: 10.256581, l2 valid loss: 0.342516, time: 117s
+Epoch 36, l2 train loss: 10.249435, l2 valid loss: 0.343483, time: 121s
+Epoch 37, l2 train loss: 10.239365, l2 valid loss: 0.342475, time: 124s
+Epoch 38, l2 train loss: 10.237271, l2 valid loss: 0.341330, time: 127s
+Epoch 39, l2 train loss: 10.230645, l2 valid loss: 0.340553, time: 131s
+Epoch 40, l2 train loss: 10.227149, l2 valid loss: 0.342221, time: 134s
+Epoch 41, l2 train loss: 10.214849, l2 valid loss: 0.344453, time: 137s
+Epoch 42, l2 train loss: 10.209283, l2 valid loss: 0.342055, time: 141s
+Epoch 43, l2 train loss: 10.205814, l2 valid loss: 0.344886, time: 144s
+Epoch 44, l2 train loss: 10.210100, l2 valid loss: 0.340831, time: 147s
+Epoch 45, l2 train loss: 10.195779, l2 valid loss: 0.340938, time: 151s
+Epoch 46, l2 train loss: 10.191580, l2 valid loss: 0.340994, time: 154s
+Epoch 47, l2 train loss: 10.195772, l2 valid loss: 0.341932, time: 157s
+Epoch 48, l2 train loss: 10.183453, l2 valid loss: 0.339388, time: 161s
+Epoch 49, l2 train loss: 10.182610, l2 valid loss: 0.342321, time: 164s
+Epoch 50, l2 train loss: 10.172926, l2 valid loss: 0.341257, time: 167s
+Epoch 51, l2 train loss: 10.166009, l2 valid loss: 0.338300, time: 171s
+Epoch 52, l2 train loss: 10.167904, l2 valid loss: 0.340122, time: 174s
+Epoch 53, l2 train loss: 10.163207, l2 valid loss: 0.338076, time: 177s
+Epoch 54, l2 train loss: 10.161185, l2 valid loss: 0.340371, time: 181s
+Epoch 55, l2 train loss: 10.153405, l2 valid loss: 0.337709, time: 184s
+Epoch 56, l2 train loss: 10.146554, l2 valid loss: 0.339179, time: 188s
+Epoch 57, l2 train loss: 10.155393, l2 valid loss: 0.342608, time: 191s
+Epoch 58, l2 train loss: 10.154603, l2 valid loss: 0.341776, time: 194s
+Epoch 59, l2 train loss: 10.141072, l2 valid loss: 0.339833, time: 198s
+Epoch 60, l2 train loss: 10.136117, l2 valid loss: 0.339998, time: 201s
+Epoch 61, l2 train loss: 10.128853, l2 valid loss: 0.339656, time: 204s
+Epoch 62, l2 train loss: 10.117037, l2 valid loss: 0.339074, time: 208s
+Epoch 63, l2 train loss: 10.124563, l2 valid loss: 0.338838, time: 211s
+Epoch 64, l2 train loss: 10.127488, l2 valid loss: 0.337229, time: 214s
+Epoch 65, l2 train loss: 10.121192, l2 valid loss: 0.341630, time: 218s
+Epoch 66, l2 train loss: 10.115934, l2 valid loss: 0.337910, time: 221s
+Epoch 67, l2 train loss: 10.114996, l2 valid loss: 0.338481, time: 224s
+Epoch 68, l2 train loss: 10.105659, l2 valid loss: 0.340672, time: 228s
+Epoch 69, l2 train loss: 10.105166, l2 valid loss: 0.340721, time: 231s
+Epoch 70, l2 train loss: 10.105862, l2 valid loss: 0.336947, time: 234s
+Epoch 71, l2 train loss: 10.109712, l2 valid loss: 0.339113, time: 238s
+Epoch 72, l2 train loss: 10.096857, l2 valid loss: 0.337655, time: 241s
+Epoch 73, l2 train loss: 10.093785, l2 valid loss: 0.337635, time: 245s
+Epoch 74, l2 train loss: 10.095553, l2 valid loss: 0.340493, time: 248s
+Epoch 75, l2 train loss: 10.083023, l2 valid loss: 0.334848, time: 251s
+Epoch 76, l2 train loss: 10.078097, l2 valid loss: 0.336876, time: 255s
+Epoch 77, l2 train loss: 10.078970, l2 valid loss: 0.336407, time: 258s
+Epoch 78, l2 train loss: 10.081272, l2 valid loss: 0.338235, time: 261s
+Epoch 79, l2 train loss: 10.079103, l2 valid loss: 0.337663, time: 265s
+Epoch 80, l2 train loss: 10.077633, l2 valid loss: 0.333086, time: 268s
+Epoch 81, l2 train loss: 10.069930, l2 valid loss: 0.336627, time: 271s
+Epoch 82, l2 train loss: 10.071265, l2 valid loss: 0.335762, time: 275s
+Epoch 83, l2 train loss: 10.066706, l2 valid loss: 0.337632, time: 278s
+Epoch 84, l2 train loss: 10.057478, l2 valid loss: 0.341553, time: 281s
+Epoch 85, l2 train loss: 10.068162, l2 valid loss: 0.335045, time: 285s
+Epoch 86, l2 train loss: 10.048966, l2 valid loss: 0.339969, time: 288s
+Epoch 87, l2 train loss: 10.067756, l2 valid loss: 0.337212, time: 291s
+Epoch 88, l2 train loss: 10.065645, l2 valid loss: 0.335807, time: 295s
+Epoch 89, l2 train loss: 10.061357, l2 valid loss: 0.340699, time: 298s
+Epoch 90, l2 train loss: 10.048679, l2 valid loss: 0.339579, time: 301s
+Epoch 91, l2 train loss: 10.068370, l2 valid loss: 0.336287, time: 305s
+Epoch 92, l2 train loss: 10.051267, l2 valid loss: 0.335431, time: 308s
+Epoch 93, l2 train loss: 10.056216, l2 valid loss: 0.338028, time: 311s
+Epoch 94, l2 train loss: 10.048160, l2 valid loss: 0.337852, time: 315s
+Epoch 95, l2 train loss: 10.055590, l2 valid loss: 0.340053, time: 318s
+Epoch 96, l2 train loss: 10.053023, l2 valid loss: 0.339031, time: 321s
+Epoch 97, l2 train loss: 10.051022, l2 valid loss: 0.339839, time: 325s
+Epoch 98, l2 train loss: 10.049115, l2 valid loss: 0.337148, time: 328s
+Epoch 99, l2 train loss: 10.042161, l2 valid loss: 0.337431, time: 332s
+Epoch 100, l2 train loss: 10.038500, l2 valid loss: 0.336326, time: 335s
+Epoch 101, l2 train loss: 10.038721, l2 valid loss: 0.339266, time: 338s
+Epoch 102, l2 train loss: 10.053196, l2 valid loss: 0.339061, time: 342s
+Epoch 103, l2 train loss: 10.052189, l2 valid loss: 0.335153, time: 345s
+Epoch 104, l2 train loss: 10.048691, l2 valid loss: 0.340546, time: 348s
+Epoch 105, l2 train loss: 10.034778, l2 valid loss: 0.336378, time: 352s
+Epoch 106, l2 train loss: 10.033198, l2 valid loss: 0.337434, time: 355s
+Epoch 107, l2 train loss: 10.028231, l2 valid loss: 0.336824, time: 358s
+Epoch 108, l2 train loss: 10.028735, l2 valid loss: 0.339454, time: 362s
+Epoch 109, l2 train loss: 10.025768, l2 valid loss: 0.337574, time: 365s
+Epoch 110, l2 train loss: 10.042699, l2 valid loss: 0.337124, time: 368s
+Epoch 111, l2 train loss: 10.027521, l2 valid loss: 0.338078, time: 372s
+Epoch 112, l2 train loss: 10.027291, l2 valid loss: 0.337518, time: 375s
+Epoch 113, l2 train loss: 10.020367, l2 valid loss: 0.338008, time: 379s
+Epoch 114, l2 train loss: 10.017423, l2 valid loss: 0.336628, time: 382s
+Epoch 115, l2 train loss: 10.015291, l2 valid loss: 0.340046, time: 385s
+Epoch 116, l2 train loss: 10.017369, l2 valid loss: 0.338501, time: 389s
+Epoch 117, l2 train loss: 10.023640, l2 valid loss: 0.336080, time: 392s
+Epoch 118, l2 train loss: 10.018773, l2 valid loss: 0.338322, time: 395s
+Epoch 119, l2 train loss: 10.015290, l2 valid loss: 0.341363, time: 399s
+Epoch 120, l2 train loss: 10.013445, l2 valid loss: 0.341222, time: 402s
+Epoch 121, l2 train loss: 10.017318, l2 valid loss: 0.335308, time: 405s
+Epoch 122, l2 train loss: 10.015415, l2 valid loss: 0.338219, time: 409s
+Epoch 123, l2 train loss: 10.025631, l2 valid loss: 0.335974, time: 412s
+Epoch 124, l2 train loss: 10.008648, l2 valid loss: 0.337250, time: 416s
+Epoch 125, l2 train loss: 10.023427, l2 valid loss: 0.338453, time: 419s
+Epoch 126, l2 train loss: 10.028242, l2 valid loss: 0.338493, time: 422s
+Epoch 127, l2 train loss: 10.012645, l2 valid loss: 0.336312, time: 426s
+Epoch 128, l2 train loss: 10.008624, l2 valid loss: 0.335352, time: 429s
+Epoch 129, l2 train loss: 10.006862, l2 valid loss: 0.335257, time: 432s
+Epoch 130, l2 train loss: 10.003478, l2 valid loss: 0.338543, time: 436s
+Epoch 131, l2 train loss: 10.011183, l2 valid loss: 0.334444, time: 439s
+Epoch 132, l2 train loss: 10.010426, l2 valid loss: 0.337418, time: 442s
+Epoch 133, l2 train loss: 10.006694, l2 valid loss: 0.337047, time: 446s
+Epoch 134, l2 train loss: 10.011227, l2 valid loss: 0.335742, time: 449s
+Epoch 135, l2 train loss: 10.010908, l2 valid loss: 0.340338, time: 452s
+Epoch 136, l2 train loss: 10.003326, l2 valid loss: 0.336072, time: 456s
+Epoch 137, l2 train loss: 9.997246, l2 valid loss: 0.336479, time: 459s
+Epoch 138, l2 train loss: 9.995477, l2 valid loss: 0.334499, time: 462s
+Epoch 139, l2 train loss: 10.004690, l2 valid loss: 0.338665, time: 466s
+Epoch 140, l2 train loss: 9.987823, l2 valid loss: 0.335796, time: 469s
+Epoch 141, l2 train loss: 10.002550, l2 valid loss: 0.338016, time: 472s
+Epoch 142, l2 train loss: 9.996192, l2 valid loss: 0.336346, time: 476s
+Epoch 143, l2 train loss: 9.987108, l2 valid loss: 0.336853, time: 479s
+Epoch 144, l2 train loss: 9.992121, l2 valid loss: 0.338213, time: 482s
+Epoch 145, l2 train loss: 9.993715, l2 valid loss: 0.334831, time: 486s
+Epoch 146, l2 train loss: 9.991162, l2 valid loss: 0.337946, time: 489s
+Epoch 147, l2 train loss: 9.998608, l2 valid loss: 0.335950, time: 492s
+Epoch 148, l2 train loss: 9.990930, l2 valid loss: 0.337058, time: 496s
+Epoch 149, l2 train loss: 9.988106, l2 valid loss: 0.336042, time: 499s
+Epoch 150, l2 train loss: 9.988026, l2 valid loss: 0.336992, time: 502s
+Epoch 151, l2 train loss: 9.986986, l2 valid loss: 0.334733, time: 506s
+Epoch 152, l2 train loss: 9.981532, l2 valid loss: 0.332761, time: 509s
+Epoch 153, l2 train loss: 9.985933, l2 valid loss: 0.333985, time: 513s
+Epoch 154, l2 train loss: 10.000161, l2 valid loss: 0.338450, time: 516s
+Epoch 155, l2 train loss: 9.993201, l2 valid loss: 0.336564, time: 519s
+Epoch 156, l2 train loss: 9.986294, l2 valid loss: 0.334431, time: 523s
+Epoch 157, l2 train loss: 9.987265, l2 valid loss: 0.338826, time: 526s
+Epoch 158, l2 train loss: 9.985983, l2 valid loss: 0.335956, time: 529s
+Epoch 159, l2 train loss: 9.979588, l2 valid loss: 0.333810, time: 533s
+Epoch 160, l2 train loss: 9.976224, l2 valid loss: 0.335754, time: 536s
+Epoch 161, l2 train loss: 9.983571, l2 valid loss: 0.335630, time: 539s
+Epoch 162, l2 train loss: 9.996072, l2 valid loss: 0.339349, time: 543s
+Epoch 163, l2 train loss: 9.983565, l2 valid loss: 0.336976, time: 546s
+Epoch 164, l2 train loss: 9.978616, l2 valid loss: 0.334265, time: 550s
+Epoch 165, l2 train loss: 9.987295, l2 valid loss: 0.336596, time: 553s
+Epoch 166, l2 train loss: 9.978378, l2 valid loss: 0.334831, time: 556s
+Epoch 167, l2 train loss: 9.969980, l2 valid loss: 0.335373, time: 560s
+Epoch 168, l2 train loss: 9.979064, l2 valid loss: 0.335602, time: 563s
+Epoch 169, l2 train loss: 9.967293, l2 valid loss: 0.336074, time: 566s
+Epoch 170, l2 train loss: 9.973269, l2 valid loss: 0.333759, time: 570s
+Epoch 171, l2 train loss: 9.984800, l2 valid loss: 0.337440, time: 573s
+Epoch 172, l2 train loss: 9.973323, l2 valid loss: 0.332085, time: 577s
+Epoch 173, l2 train loss: 9.959982, l2 valid loss: 0.335416, time: 580s
+Epoch 174, l2 train loss: 9.961044, l2 valid loss: 0.336939, time: 583s
+Epoch 175, l2 train loss: 9.967770, l2 valid loss: 0.335197, time: 587s
+Epoch 176, l2 train loss: 9.965681, l2 valid loss: 0.334399, time: 590s
+Epoch 177, l2 train loss: 9.964252, l2 valid loss: 0.335627, time: 593s
+Epoch 178, l2 train loss: 9.967885, l2 valid loss: 0.334375, time: 597s
+Epoch 179, l2 train loss: 9.963288, l2 valid loss: 0.333572, time: 600s
+Epoch 180, l2 train loss: 9.974315, l2 valid loss: 0.332794, time: 604s
+Epoch 181, l2 train loss: 9.961861, l2 valid loss: 0.333768, time: 607s
+Epoch 182, l2 train loss: 9.966528, l2 valid loss: 0.337239, time: 610s
+Epoch 183, l2 train loss: 9.957902, l2 valid loss: 0.335882, time: 614s
+Epoch 184, l2 train loss: 9.971872, l2 valid loss: 0.338068, time: 617s
+Epoch 185, l2 train loss: 9.963786, l2 valid loss: 0.331162, time: 620s
+Epoch 186, l2 train loss: 9.964289, l2 valid loss: 0.334974, time: 624s
+Epoch 187, l2 train loss: 9.977409, l2 valid loss: 0.334684, time: 627s
+Epoch 188, l2 train loss: 9.966876, l2 valid loss: 0.337329, time: 631s
+Epoch 189, l2 train loss: 9.964640, l2 valid loss: 0.339698, time: 634s
+Epoch 190, l2 train loss: 9.959188, l2 valid loss: 0.336635, time: 637s
+Epoch 191, l2 train loss: 9.961652, l2 valid loss: 0.335489, time: 641s
+Epoch 192, l2 train loss: 9.962705, l2 valid loss: 0.337536, time: 644s
+Epoch 193, l2 train loss: 9.952183, l2 valid loss: 0.335887, time: 647s
+Epoch 194, l2 train loss: 9.956661, l2 valid loss: 0.337299, time: 651s
+Epoch 195, l2 train loss: 9.961844, l2 valid loss: 0.336368, time: 654s
+Epoch 196, l2 train loss: 9.943549, l2 valid loss: 0.334484, time: 657s
+Epoch 197, l2 train loss: 9.950788, l2 valid loss: 0.333834, time: 661s
+Epoch 198, l2 train loss: 9.942678, l2 valid loss: 0.338508, time: 664s
+Epoch 199, l2 train loss: 9.946865, l2 valid loss: 0.336434, time: 667s
+Epoch 200, l2 train loss: 9.947368, l2 valid loss: 0.334324, time: 671s
+Restoring ckpt at epoch 185 with lowest validation error: ./models/BinaryMNIST/noise_0.1/0/model.ckpt-185000
+L2 squared test loss (per image): 0.116494
+L2 squared test loss (per pixel): 0.000149
+L2 test loss (per image): 0.341312
+L2 test loss (per pixel): 0.000435
+6.0 -47.0
+1.0 0.0
+n: 2, m: 10
+initializing with samples from test set...
+Step 999
+Step 1999
+Step 2999
+Step 3999
+Step 4999
+Step 5999
+Step 6999
+Step 7999
+Step 8999
+(100, 784)
+n: 10, m: 10
