@@ -1,3 +1,7 @@
+# Original code 
+
+Fixed bugs in original code. Our Pytorch implementation is at https://github.com/adityamittal03/necst-torch
+
 # Neural Joint Source-Channel Coding
 
 This repo contains a reference implementation for NECST as described in the paper:
